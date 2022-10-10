@@ -30,7 +30,6 @@ public abstract class Console {
 		return "Console [nom=" + nom + ", prix=" + prix + ", dateDeSortie=" + dateDeSortie + "]";
 	}
 	public Console(String nom, double prix, LocalDate dateDeSortie) {
-		super();
 		this.nom = nom;
 		this.prix = prix;
 		this.dateDeSortie = dateDeSortie;
