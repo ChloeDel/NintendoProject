@@ -2,9 +2,9 @@ package metier;
 
 import java.time.LocalDate;
 
-public class Console {
+public abstract class Console {
 
-	private String nom;
+	protected String nom;
 	private double prix;
 	private LocalDate dateDeSortie;
 	public String getNom() {
