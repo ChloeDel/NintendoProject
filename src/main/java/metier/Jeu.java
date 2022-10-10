@@ -2,6 +2,7 @@ package metier;
 
 import java.util.List;
 
+
 public class Jeu {
 
 	private String titre;
