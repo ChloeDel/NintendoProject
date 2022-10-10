@@ -8,9 +8,6 @@ public class Portable extends Console {
 		super(nom, prix, dateDeSortie);
 	
 	}
-
-
-		
 	
 
 	}
