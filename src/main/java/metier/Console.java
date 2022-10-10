@@ -5,8 +5,8 @@ import java.time.LocalDate;
 public abstract class Console {
 
 	protected String nom;
-	private double prix;
-	private LocalDate dateDeSortie;
+	protected double prix;
+	protected LocalDate dateDeSortie;
 	public String getNom() {
 		return nom;
 	}
