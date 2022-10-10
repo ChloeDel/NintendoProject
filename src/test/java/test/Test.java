@@ -2,17 +2,20 @@ package test;
 
 import java.time.LocalDate;
 
-import metier.Achat;
-import metier.Client;
 import metier.Console;
 import metier.Jeu;
-
-
+import metier.Achat;
+import metier.Client;
+import metier.Adresse;
+import metier.Boutique;
 
 public class Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Adresse a1 = new Adresse (6,"Rue Mario", "Royaume champignon");
+		Boutique b1 = new Boutique("Le paradis du jeu vidéo",a1);
 
 		Console c1 = new Console("Nintendo Switch");
 		Console c2 = new Console("Nintendo Wii");
